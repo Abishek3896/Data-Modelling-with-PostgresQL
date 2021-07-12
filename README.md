@@ -5,7 +5,7 @@ The Purpose of this Project is to create a Postgres database with tables designe
 ## Database Schema design and ETL process:
 ![](image.png)
 <p align="center">
-    # Database Design
+    Database Design
 </p>
 The Database Schema is a Star Schema which consists of a songplay table which is the fact table and the artist table, user table , song table, time table are all dimension tables. The ETL process conssts of transferring data from json files in two local directories into these tables in Postgres.
 
