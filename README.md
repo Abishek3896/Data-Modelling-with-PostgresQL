@@ -3,8 +3,7 @@
 The Purpose of this Project is to create a Postgres database with tables designed to optimize queries on song play analysis, for a startup called Sparkify who wants to analyze the data they've been collecting on songs and user activity on their new music streaming app.
 
 ## Database Schema design and ETL process:
-![](image.png)
-**Figure 1** - Database Diagram
+![](image.png)**Figure 1** - Database Diagram
 The Database Schema is a $Star Schema$ which consists of a songplay table which is the fact table and the artist table, user table , song table, time table are all dimension tables. The ETL process conssts of transferring data from json files in two local directories into these tables in Postgres.
 
 ## Files in Repository:
