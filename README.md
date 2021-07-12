@@ -10,12 +10,12 @@ The Purpose of this Project is to create a Postgres database with tables designe
 The Database Schema is a Star Schema which consists of a songplay table which is the fact table and the artist table, user table , song table, time table are all dimension tables. The ETL process conssts of transferring data from json files in two local directories into these tables in Postgres.
 
 ## Files in Repository:
--> data files
--> create tables.py (create tables and connects to the sparkify db)
--> sql_queries.py (queries for drop, create and insert into tables)
--> etl.py (pipeline in transferring data into the tables)
--> etl.ipynb (Test notebook of the procedure implemented in etl.py)
--> test.ipynb (test notebook to query the tables to check if the data is inserted)
+- data files
+- create tables.py (create tables and connects to the sparkify db)
+- sql_queries.py (queries for drop, create and insert into tables)
+- etl.py (pipeline in transferring data into the tables)
+- etl.ipynb (Test notebook of the procedure implemented in etl.py)
+- test.ipynb (test notebook to query the tables to check if the data is inserted)
 
 ## Execution:
 Step1: Open terminal(Linux) or command prompt (Windows) and go to the project directory
