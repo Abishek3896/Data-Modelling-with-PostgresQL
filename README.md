@@ -18,8 +18,8 @@ The Database Schema is a Star Schema which consists of a songplay table which is
 - test.ipynb (test notebook to query the tables to check if the data is inserted)
 
 ## Execution:
-Step1: Open terminal(Linux) or command prompt (Windows) and go to the project directory
-Step2: Run the sql_queries python script 
-Step3: Run the create tables python script to create the tables and connect to the sparkify database
-Step4: Run the etl python script to build the pipeline by extracting, transforming and Loading data from the data files into the tables.
-Step 5: Visualize the populated tables by running the test.ipynb file.
+- Step1: Open terminal(Linux) or command prompt (Windows) and go to the project directory
+- Step2: Run the sql_queries python script 
+- Step3: Run the create tables python script to create the tables and connect to the sparkify database
+- Step4: Run the etl python script to build the pipeline by extracting, transforming and Loading data from the data files into the tables.
+- Step 5: Visualize the populated tables by running the test.ipynb file.
